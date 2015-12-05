@@ -1,4 +1,5 @@
 起始出自《C++ GUI Qt4编程》（第二版）
+
 start from C++ GUI Programming with Qt 4 (second edition)
 by Jasmin Blanchette and Mark Summerfield.
 
