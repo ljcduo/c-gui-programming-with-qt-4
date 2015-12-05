@@ -494,6 +494,7 @@ void MainWindow::updateRecentFileActions()
     separatorAction->setVisible(!recentFiles.isEmpty());
 }
 
+// 只留下文件名，而不带路径
 QString MainWindow::strippedName(const QString &fullFileName)
 {
     return QFileInfo(fullFileName).fileName();
