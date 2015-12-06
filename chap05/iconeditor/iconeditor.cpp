@@ -84,7 +84,7 @@ void IconEditor::paintEvent(QPaintEvent *event)
     for (int i = 0; i < image.width(); ++i) {
         for (int j = 0; j < image.height(); ++j) {
             QRect rect = pixelRect(i, j);
-            if (!event->region().intersect(rect).isEmpty()) {
+            if (!event->region().intersected(rect).isEmpty()) {
                 QColor color = QColor::fromRgba(image.pixel(i, j));
                 if (color.alpha() < 255)
                     painter.fillRect(rect, Qt::white);
