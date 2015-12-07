@@ -1,4 +1,4 @@
-#include <QtGui>
+#include <QtWidgets>
 
 #include "findfiledialog.h"
 
@@ -25,7 +25,7 @@ FindFileDialog::FindFileDialog(QWidget *parent)
 
     messageLabel = new QLabel(tr("0 files found"));
     messageLabel->setFrameShape(QLabel::Panel);
-    messageLabel->setFrameShadow(QLabel::Sunken);
+    //messageLabel->setFrameShadow(QLabel::Sunken);
 
     findButton = new QPushButton(tr("&Find"));
     stopButton = new QPushButton(tr("Stop"));
