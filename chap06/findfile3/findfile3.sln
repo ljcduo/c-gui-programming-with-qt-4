@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "findfile3", "findfile3.vcxproj", "{D7D76B2B-40BE-3681-9B09-78D269039450}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7D76B2B-40BE-3681-9B09-78D269039450}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D7D76B2B-40BE-3681-9B09-78D269039450}.Debug|Win32.Build.0 = Debug|Win32
+		{D7D76B2B-40BE-3681-9B09-78D269039450}.Release|Win32.ActiveCfg = Release|Win32
+		{D7D76B2B-40BE-3681-9B09-78D269039450}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
